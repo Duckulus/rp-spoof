@@ -5,7 +5,8 @@
   "name": "server-resource-spoofer",
   "description": "Pretends that you are using the servers resource pack on servers that require it.",
   "authors": [
-    "Duckulus"
+    "Duckulus",
+    "Pfostierer"
   ],
   "contact": {
     "homepage": "https://duckul.us/",
