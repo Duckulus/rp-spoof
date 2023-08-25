@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "de.duckulus.rpspoof.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinConfirmScreen",
+    "MixinPack"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MixinClientPacketListener"
+  ]
+}

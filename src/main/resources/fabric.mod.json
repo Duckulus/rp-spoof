@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rp-spoof",
+  "version": "1.0",
+  "name": "server-resource-spoofer",
+  "description": "Pretends that you are using the servers resource pack on servers that require it.",
+  "authors": [
+    "Duckulus"
+  ],
+  "contact": {
+    "homepage": "https://duckul.us/",
+    "sources": "https://github.com/duckulus/rp-spoof"
+  },
+  "icon": "assets/rp-spoof/icon.png",
+  "entrypoints": {
+    "client": [
+      "de.duckulus.rpspoof.RPSpoofMod"
+    ]
+  },
+  "mixins": [
+    "rp-spoof.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
